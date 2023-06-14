@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Projeto de Reciclagem - Cadastro de Pessoas</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Cadastro de Pessoas</h1>
+    <form method="post" action="salvar_pessoa.php">
+      <label for="nome_pessoa">Nome:</label>
+      <input type="text" name="nome_pessoa" required><br>
+      <label for="telefone_pessoa">Telefone:</label>
+      <input type="text" name="telefone_pessoa" required><br>
+      <label for="email_pessoa">Email:</label>
+      <input type="email" name="email_pessoa" required><br>
+      <label for="endereco_pessoa">Endereço:</label>
+      <input type="text" name="endereco_pessoa" required><br>
+      <input type="submit" value="Cadastrar Pessoa">
+    </form>
+  </div>
+</body>
+</html>

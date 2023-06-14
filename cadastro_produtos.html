@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Projeto de Reciclagem - Cadastro de Produtos</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Cadastro de Produtos</h1>
+    <form method="post" action="salvar_produto.php">
+      <label for="nome_produto">Nome do Produto:</label>
+      <input type="text" name="nome_produto" required><br>
+      <label for="quantidade_produto">Quantidade:</label>
+      <input type="number" name="quantidade_produto" required><br>
+      <label for="nome_doador">Nome do Doador:</label>
+      <input type="text" name="nome_doador" required><br>
+      <input type="submit" value="Cadastrar Produto">
+    </form>
+  </div>
+</body>
+</html>
